@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script type="text/javascript" src="js/bootstrap.js"></script>	
+	<script type="text/javascript" src="file.js"></script>
+</head>
+<body>
+	<div class="panel panel-info col-md-6 col-md-offset-3 ">
+		<div class="panel-heading">
+			<h2 style="text-align: center"> Login </h2>
+		</div>
+	</div>
+	<div class="panel panel-default col-md-6 col-md-offset-3 ">
+		<div class="panel-body">
+			<div class="col-md-6">
+				<label> Name :</label>
+			</div>
+			<div class="col-md-6">
+				<input id="Uname" type="text" name="name" placeholder="Type your name"></input>
+			</div>
+			<p align="center">or</p>
+			<div class="col-md-6">
+				<label > E-Mail : </label>
+			</div>
+			<div class="col-md-6">
+				<input id="Uemail" type="text" name="name" placeholder="Type your E-mail"></input>
+				<br>
+			</div>
+			<div class="col-md-6">
+				<label > Password :</label>
+			</div>
+			<div class="col-md-6" style="margin-top: 2px";>
+				<input id="Upass" type="password" name="name" placeholder="Password" ></input>
+			</div>
+			<div class="col-md-12">
+				<button type="button" class="btn btn-success" style="float:right" onclick="login()"> Login </button>
+			</div>
+		</div>			
+	</div>
+</body>
+</html>
